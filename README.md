@@ -50,4 +50,4 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ## Live Demo
 
-[View Live](weatherappbyaziz.netlify.app)
+[View Live](https://weatherappbyaziz.netlify.app)
