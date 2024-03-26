@@ -47,3 +47,7 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 - Weather icons by Font Awesome
 - Weather data provided by OpenWeatherMap API
+
+## Live Demo
+
+[View Live](weatherappbyaziz.netlify.app)
