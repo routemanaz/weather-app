@@ -1,0 +1,23 @@
+.App {
+ 
+  display: grid;
+  place-items: center;
+ 
+
+}
+
+.weather-daata{
+ color: white;
+}
+
+.App-container{
+  width: 43.5em;
+  height: 37.5em;
+  background: url(./images/img1.jpg);
+  background-size: cover;
+ border: 2px solid gray;
+border-radius: 20px;
+margin-top: 3em;
+filter: drop-shadow(-2px -5px 6px #000000);
+
+}

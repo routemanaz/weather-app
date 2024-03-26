@@ -1,0 +1,137 @@
+.weather-icons{
+    font-size: 8em;
+    margin-left: 10px;
+    color: rgb(255, 157, 0);
+    width:200px ;
+    border: 1px solid rgb(11, 10, 10);
+    display: flex;
+    justify-content: center;
+    
+   
+    
+}
+
+.weather-icons img {
+    width: 100%;
+    height: 100%;
+}
+
+.wind-speed{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+   
+    height: 100px;
+    width: 150px;
+    column-gap: 10px;
+    margin-left: 500px;
+
+}
+.search-icon{
+    color: black;
+    background: white;
+    padding: 3px;
+    border-radius: 50%;
+ 
+
+}
+
+div.temp-city{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 60px;
+    font-size: 2em;
+    animation: pulsate 1.5s infinite;
+    
+}
+
+ /* use to animate the temperature value*/
+@keyframes pulsate {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+ 
+
+
+
+
+
+div.london-city{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 60px;
+   font-size: 2em;
+}
+
+.humity-icon-num{
+    display: flex;
+    align-items: end;
+    flex-wrap: wrap;
+    height: 150px;
+    width: 150px;
+    padding-left: 50px;
+    margin-left: 30px;
+    column-gap: 30px;
+   
+    position: relative;
+    top: 100px;
+    
+
+}
+
+.humidity-text{
+    display: flex;
+    align-items: end;
+    
+    margin-left: 30px;
+    
+   
+
+}
+
+
+.search-container{
+   
+     margin: 10px ;
+     border-radius: 5px;
+     font-size: 1em;
+     height: 80px;
+     width: 400px;
+     display: flex;
+   justify-content: center;
+   column-gap: 10px;
+     align-items: center;
+    
+
+ }
+ 
+ .input{
+     border:1px solid lavenderblush;
+     width: 200px;
+     border-radius: 10px;
+     text-align: center;
+
+ }
+
+
+ .search-center{
+    display: flex;
+    justify-content: center;
+   
+ }
+
+ /*color for the humidity icon*/
+ .humidity-icon{ 
+    color: #00FFFF;
+ }
